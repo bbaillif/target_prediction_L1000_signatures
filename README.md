@@ -23,8 +23,10 @@ The goal of this code is to preprocess data coming from the LINCS (CMap/L1000) a
 
 Scripts were written using Jupyter Notebook from conda 4.8.3, with Python 3.7.6
 
-* download_raw_data
+* download_raw_data.ipynb
  To download the required sources
-* perturbagen_and_related_signatures_metadata_processing
+* perturbagen_and_related_signatures_metadata_processing.ipynb
  Compile the 2 GSE metadata
  Select compound perturbagens
+* pubchem_bioactivity_matrix_extraction.R
+ Compute the bioactivity matrix using the bioassayR package along with the pubchem protein only SQLite file
